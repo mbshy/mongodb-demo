@@ -1,5 +1,5 @@
 # mongodb-demo
-example project with Spring
+expense tracker with Spring
 + MongoDB
 + Lombok
 + Junit,AssertJ,TestContainers
