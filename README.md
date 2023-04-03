@@ -6,3 +6,11 @@ expense tracker with Spring
 + Domain Driven Design
 + Document Transfer Object
 + Swagger UI
+
+
+## Running inside Docker
+```shell
+./mvnw -Pcompose clean install
+docker build -t shiravand/mongodb-demo .
+docker compose up
+```

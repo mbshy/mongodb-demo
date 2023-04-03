@@ -81,4 +81,23 @@
 		</plugins>
 	</build>
 
+
+	<profiles>
+		<profile>
+			<id>dev</id>
+			<properties>
+				<activatedProperties>local</activatedProperties>
+			</properties>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+		</profile>
+		<profile>
+			<id>compose</id>
+			<properties>
+				<activatedProperties>compose</activatedProperties>
+			</properties>
+		</profile>
+	</profiles>
+
 </project>
